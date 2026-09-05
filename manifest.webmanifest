@@ -1,0 +1,70 @@
+{
+  "name": "DIFOR Comercial V28.17",
+  "short_name": "DIFOR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F7F8FA",
+  "theme_color": "#FF6A00",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Portafolio",
+      "short_name": "Portafolio",
+      "url": "./#portfolio",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Sala de Venta",
+      "short_name": "Sala",
+      "url": "./#salesfloor",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Calculadora +",
+      "short_name": "Calculadora",
+      "url": "./#calculator",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Back Office",
+      "short_name": "Back Office",
+      "url": "./#panel",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "description": "DIFOR Comercial V28.17 · nube reparada entre PC, celular y tablet"
+}

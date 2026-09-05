@@ -1,0 +1,8 @@
+name = "difor-v28-17"
+compatibility_date = "2026-06-28"
+pages_build_output_dir = "."
+
+# En Cloudflare Pages usa bindings en el panel.
+# D1: DIFOR_DB (también acepta DB)
+# R2: DIFOR_FILES (también acepta BUCKET)
+# Variable opcional: DIFOR_WORKSPACE_ID=difor-castro-axel

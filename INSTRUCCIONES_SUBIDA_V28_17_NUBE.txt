@@ -1,0 +1,21 @@
+INSTRUCCIONES DE SUBIDA - DIFOR V28.17 NUBE
+
+1. Descomprime el ZIP.
+2. Sube el CONTENIDO de la carpeta a Cloudflare Pages, no la carpeta completa.
+3. Verifica que queden en la raiz estos archivos:
+   - index.html
+   - 404.html
+   - _worker.js
+   - _routes.json
+   - _redirects
+   - _headers
+   - sw.js
+   - manifest.webmanifest
+4. Para sincronizar PC, celular y tablet, Cloudflare debe tener D1 vinculado como DIFOR_DB o DB.
+5. Para que fotos, banners y PDF grandes aparezcan tambien en otros dispositivos, Cloudflare debe tener R2 vinculado como DIFOR_FILES o BUCKET.
+6. Abre el link publicado en Cloudflare, toca el boton Nube en la barra lateral y presiona Sincronizar ahora.
+7. Repite el paso 6 en el celular.
+
+IMPORTANTE:
+Si abres index.html como archivo local, la app funciona en modo local, pero no sincroniza entre dispositivos.
+Si el boton Nube muestra Error nube, falta revisar la vinculacion D1 del sitio publicado.
